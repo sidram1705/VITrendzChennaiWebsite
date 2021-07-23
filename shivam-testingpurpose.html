@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,6 +12,7 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/home.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWV0BENQCZ"></script>
@@ -36,12 +38,23 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                             <li class="nav-item"><a class="nav-link" href="images.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
                             <li class="nav-item"><a class="nav-link" href="pyq.html">Past Year Questions</a></li>
-                            <li class="nav-item"><a class="nav-link" href="clubs.html">Clubs & Chapters</a></li>
-                            
-                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -51,16 +64,16 @@
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
-                            <div class="my-5 text-center text-xl-start">
+                            <div class="my-5 text-center text-xl-start" id="coverTitle">
                                 <h1 class="display-5 fw-bolder text-white mb-2">VITrendz Chennai</h1>
                                 <p class="lead fw-normal text-white-50 mb-4">A Student Community To Keep VITians Entertain and Help In Academics</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="https://res.cloudinary.com/vitrendzchennai/image/upload/v1626877429/hat3xx91ozu2lrgh7qdp_kzhikk.jpg">Learn More</a>
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3 __button1" href="#features">Get Started</a>
+                                    <a class="btn btn-outline-light btn-lg px-4 __button2" href="https://res.cloudinary.com/vitrendzchennai/image/upload/v1626877429/hat3xx91ozu2lrgh7qdp_kzhikk.jpg">Learn More</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center" id="coverImage"><img class="img-fluid rounded-3 my-5" src="https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg" alt="..." /></div>
                     </div>
                 </div>
             </header>
@@ -75,7 +88,7 @@
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection" ></i></div>
                                     <h2 class="h5" >FFCS Planner</h2>
                                     <a class="btn btn-outline-dark btn-lg px-4" href="https://ffcs.vitrendz.com/">Learn More</a>
-                                    <p class="mb-0">VITrends FFCS Planner is one of the most unique FFCS planner that a VITian has ever seen. Packed with novelties like automatic faculty suggestions, customized course addition and rest of the generic FFCS functionalities. VITrendz FFCS Planner was designed by the motive of assisting freshers who dont have any/necessary contact with seniors for guidance to select the best faculty.It also provides a "close to actual FFCS" functionality by not permitting them to add clashed courses or courses that have already been added.</p>
+                                    <p class="mb-0">VITrends FFCS Planner is one of the most unique FFCS planner that a VITian has ever seen with novelties like automatic faculty suggestions, customized course addition and rest of the generic FFCS functionalities. VITrendz FFCS Planner was designed by the motive of assisting freshers who wouldnt have more/any contact with senior year students to guide them to select the best faculty. The app also provides a "close to actual FFCS" functionality by not permitting them to add clased courses or courses that have already been added.</p>
                                 </div>
                                 <div class="col mb-5 h-100">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
@@ -124,7 +137,7 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
-                                <h2 class="fw-bolder">News & Updates</h2>
+                                <h2 class="fw-bolder">From our blog</h2>
                                 <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
                             </div>
                         </div>
@@ -289,5 +302,34 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <!--added manully -->
+        <script defer>
+            gsap.from("#coverImage", {duration: 1.5, x: 300, opacity: 0, scale: 0.5});
+            gsap.from("#coverTitle", {duration: 1.5, y: -300, opacity: 0, scale: 0.5});
+            gsap.from(".__button1", {duration:0.5, opacity: 0, x: -100,scale: 0.2, delay:1.5});
+            gsap.from(".__button2", {duration:0.5, opacity: 0, x: 100,scale: 0.2, delay:1.5});
+            gsap.from(".nav-item", {
+          duration: 2,
+          scale: 0.5, 
+          opacity: 0, 
+          delay: 0.5, 
+          stagger: 0.2,
+          ease: "elastic", 
+          force3D: true
+        });
+
+        document.querySelectorAll(".nav-item").forEach(function(box) {
+          box.addEventListener("click", function() {
+            gsap.to(".box", {
+              duration: 0.5, 
+              opacity: 0, 
+              y: -100, 
+              stagger: 0.1,
+              ease: "back.in"
+            });
+          });
+        });
+        </script>
     </body>
 </html>
